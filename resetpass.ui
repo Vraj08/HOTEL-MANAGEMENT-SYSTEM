@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.174, y2:0, stop:0 rgba(0, 223, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(133, 215, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="loginlbl">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>70</y>
+      <width>991</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Calligraphy</family>
+      <pointsize>48</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Reset Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siginlbl">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>190</y>
+      <width>651</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter Your Id and New Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Usernameledit">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>370</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Passwordledit">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>510</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>320</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Email-ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwordlbl">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>460</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorlineedt">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>750</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fgtpass">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>820</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:30px;
+;
+	background-color: rgb(170, 255, 255);
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}
+QPushButton:hover
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0.203592, y1:0.955, x2:0.786, y2:0.346682, stop:0 rgba(6, 224, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(34, 182, 255, 255));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Reset Password</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwordlbl_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>610</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Confirm Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Passwordleditwo">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>660</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

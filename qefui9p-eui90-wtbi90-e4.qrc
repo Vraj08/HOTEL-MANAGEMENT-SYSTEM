@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="syrdtyufyi">
+    <file>about-us-mission.jpg</file>
+  </qresource>
+  <qresource prefix="newPrefix"/>
+</RCC>

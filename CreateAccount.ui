@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.174, y2:0, stop:0 rgba(0, 223, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(133, 215, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="loginlbl">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>-10</y>
+      <width>401</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Calligraphy</family>
+      <pointsize>48</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Sign Up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="siginlbl">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>120</y>
+      <width>591</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Create Your Own New Account!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signuplbl">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>730</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0.203592, y1:0.955, x2:0.786, y2:0.346682, stop:0 rgba(6, 224, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(34, 182, 255, 255));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}
+QPushButton:hover
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0.102318, stop:0 rgba(6, 24, 255, 255), stop:0.517413 rgba(66, 252, 255, 255), stop:1 rgba(0, 55, 255, 255));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign up</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Usernameledit">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>130</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Passwordledit">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>380</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>80</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Email-ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwordlbl">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>340</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imglbltwo">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>190</y>
+      <width>751</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/jing.fm-psychologist-clip-art-3981675.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imglbl">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>530</y>
+      <width>711</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/Sign_up_today.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passwordlbl_2">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>470</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Confirm Password</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Passwordleditwo">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>520</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorpasslbl">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>830</y>
+      <width>921</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 15pt &quot;Lucida Bright&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Please Ensure that Password matches the following conditions :
+1) It should have at least one number.
+2) It should have at least one uppercase and one lowercase character.
+3) It should have at least one special symbol.
+4) It should be between 6 to 20 characters long.
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorlineedt">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>660</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="fld">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>610</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 8pt &quot;Lucida Bright&quot;;
+</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Staff(Receptionist)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Staff(Cleaning)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Staff(Laundary)</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Staff(Restaurant)</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="passwordlbl_4">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>610</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Field : </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="name">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>260</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_2">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>220</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../anaconda3/Library/bin/abc.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

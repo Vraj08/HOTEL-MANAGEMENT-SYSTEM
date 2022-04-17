@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2000</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 234, 156);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QScrollArea" name="scrollArea">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(170, 255, 255);</string>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-1120</y>
+         <width>2222</width>
+         <height>2222</height>
+        </rect>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QFrame" name="frame">
+          <property name="minimumSize">
+           <size>
+            <width>2200</width>
+            <height>2200</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(255, 255, 0);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <widget class="QToolButton" name="toolButton">
+           <property name="geometry">
+            <rect>
+             <x>850</x>
+             <y>1230</y>
+             <width>27</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton">
+           <property name="geometry">
+            <rect>
+             <x>1220</x>
+             <y>1410</y>
+             <width>93</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+          <widget class="QToolButton" name="toolButton_2">
+           <property name="geometry">
+            <rect>
+             <x>940</x>
+             <y>1740</y>
+             <width>27</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>...</string>
+           </property>
+          </widget>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="geometry">
+            <rect>
+             <x>1540</x>
+             <y>1820</y>
+             <width>93</width>
+             <height>28</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>PushButton</string>
+           </property>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>2000</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

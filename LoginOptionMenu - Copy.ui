@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0.102318, stop:0 rgba(6, 24, 255, 255), stop:0.517413 rgba(66, 252, 255, 255), stop:1 rgba(0, 55, 255, 255));}</string>
+   </property>
+   <widget class="QLabel" name="welcomelbl">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>-260</y>
+      <width>1301</width>
+      <height>881</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Hotel Royal Galaxy</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lgorcrlbl">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>280</y>
+      <width>551</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 20pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Login or Create a new account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbtn">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>400</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:30px;
+background-color:rgb(85, 255, 255);
+font: 20pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Log in</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="signupbtn">
+    <property name="geometry">
+     <rect>
+      <x>780</x>
+      <y>500</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:30px;
+background-color:rgb(0, 255, 255);
+font: 20pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Sign up</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imglbl">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>580</y>
+      <width>951</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/htl.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imglbl2">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>400</y>
+      <width>1121</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/htl2.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>1690</x>
+      <y>-40</y>
+      <width>361</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/Royal_Classic_Hotel_Logo11.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

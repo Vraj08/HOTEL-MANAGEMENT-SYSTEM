@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1940</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.174, y2:0, stop:0 rgba(0, 223, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(133, 215, 255, 255));}</string>
+   </property>
+   <widget class="QPushButton" name="signuplbl">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>580</y>
+      <width>351</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0.203592, y1:0.955, x2:0.786, y2:0.346682, stop:0 rgba(6, 224, 255, 255), stop:0.517413 rgba(170, 255, 255, 255), stop:1 rgba(34, 182, 255, 255));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}
+QPushButton:hover
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0.102318, stop:0 rgba(6, 24, 255, 255), stop:0.517413 rgba(66, 252, 255, 255), stop:1 rgba(0, 55, 255, 255));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Sign up</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ppotpp">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>400</y>
+      <width>641</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgb(103, 215, 255);
+font: 12pt &quot;Lucida Bright&quot;;}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(0, 255, 255);
+font: 12pt &quot;Lucida Bright&quot;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>340</y>
+      <width>591</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Enter OTP Sent On Your Email ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorlineedt">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>510</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../anaconda3/Library/bin/abc.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

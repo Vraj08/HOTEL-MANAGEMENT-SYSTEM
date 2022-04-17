@@ -1,0 +1,2877 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2001</width>
+    <height>1071</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1800</width>
+    <height>1040</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 232, 184);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Algerian</family>
+       <pointsize>48</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+     </property>
+     <property name="text">
+      <string>                                The Grill Kitchen</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-2317</y>
+        <width>1956</width>
+        <height>3268</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>Algerian</family>
+           <pointsize>48</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+         </property>
+         <property name="text">
+          <string>                                       Beverages</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="minimumSize">
+          <size>
+           <width>1800</width>
+           <height>3150</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QLabel" name="label_4">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>49</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Milk Shake        Rs. 135   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv1">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>60</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_5">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>49</y>
+            <width>631</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Cold Coffee with ice-cream       Rs. 155   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv3">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>60</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_6">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>89</y>
+            <width>561</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Vanilla / Strawberry / Chocolate</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>49</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Cold Coffee        Rs. 135   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv2">
+          <property name="geometry">
+           <rect>
+            <x>1190</x>
+            <y>60</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv6">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>231</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_7">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>220</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Aerated Water    Rs. 50   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_8">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>220</y>
+            <width>561</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Butter Milk       Rs. 90   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_9">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>220</y>
+            <width>281</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Lassi        Rs. 125   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv4">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>231</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bv5">
+          <property name="geometry">
+           <rect>
+            <x>1190</x>
+            <y>231</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_10">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>260</y>
+            <width>411</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Plain / Masala / Salted / Sweet</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_11">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>260</y>
+            <width>561</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Plain / Masala / Salted </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>260</y>
+            <width>411</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Coke / Thumbs up / Sprite / Fanta</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_13">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>330</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                         Soup</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="so3">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>461</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_17">
+          <property name="geometry">
+           <rect>
+            <x>1290</x>
+            <y>450</y>
+            <width>471</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Chinese Manchow        Rs. 135   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_18">
+          <property name="geometry">
+           <rect>
+            <x>580</x>
+            <y>450</y>
+            <width>631</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Oriental Hot 'N' Sour      Rs. 135   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_21">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>450</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Choice of Soup       Rs. 125   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="so1">
+          <property name="geometry">
+           <rect>
+            <x>460</x>
+            <y>460</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="so2">
+          <property name="geometry">
+           <rect>
+            <x>1190</x>
+            <y>461</y>
+            <width>16</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_22">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>490</y>
+            <width>561</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Tomato / Corn Cheese Tomato / Minestrone</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_14">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>560</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                   Baked Dish</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bd1">
+          <property name="geometry">
+           <rect>
+            <x>630</x>
+            <y>710</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_24">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>700</y>
+            <width>581</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Baked Macaroni Pineapple       Rs. 250   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_20">
+          <property name="geometry">
+           <rect>
+            <x>970</x>
+            <y>690</y>
+            <width>401</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Baked Lasagna      Rs. 280   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="bd2">
+          <property name="geometry">
+           <rect>
+            <x>1380</x>
+            <y>700</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_15">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>810</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                        Salad</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="sa1">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>940</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_19">
+          <property name="geometry">
+           <rect>
+            <x>1330</x>
+            <y>930</y>
+            <width>371</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Greek Salad        Rs. 150   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_25">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>930</y>
+            <width>341</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Green Salad       Rs. 75   </string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_26">
+          <property name="geometry">
+           <rect>
+            <x>620</x>
+            <y>930</y>
+            <width>441</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Normandy Crunch      Rs. 150   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="sa2">
+          <property name="geometry">
+           <rect>
+            <x>1080</x>
+            <y>940</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="sa3">
+          <property name="geometry">
+           <rect>
+            <x>1710</x>
+            <y>940</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_16">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>1010</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                       Papad</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_53">
+          <property name="geometry">
+           <rect>
+            <x>1460</x>
+            <y>1130</y>
+            <width>241</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Masala    Rs. 50</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_52">
+          <property name="geometry">
+           <rect>
+            <x>830</x>
+            <y>1130</y>
+            <width>221</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Fried    Rs. 50</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="pa1">
+          <property name="geometry">
+           <rect>
+            <x>310</x>
+            <y>1140</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_51">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>1130</y>
+            <width>251</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Roasted    Rs. 30</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="pa3">
+          <property name="geometry">
+           <rect>
+            <x>1700</x>
+            <y>1140</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="pa2">
+          <property name="geometry">
+           <rect>
+            <x>1050</x>
+            <y>1140</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_54">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>1200</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                         Curd</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_55">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>1320</y>
+            <width>291</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Plain Curd    Rs. 80</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_56">
+          <property name="geometry">
+           <rect>
+            <x>760</x>
+            <y>1320</y>
+            <width>281</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Veg. Raita    Rs. 90</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_57">
+          <property name="geometry">
+           <rect>
+            <x>1360</x>
+            <y>1320</y>
+            <width>351</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Pudina Raita    Rs. 120</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="cu2">
+          <property name="geometry">
+           <rect>
+            <x>1050</x>
+            <y>1330</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="cu3">
+          <property name="geometry">
+           <rect>
+            <x>1700</x>
+            <y>1330</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="cu1">
+          <property name="geometry">
+           <rect>
+            <x>350</x>
+            <y>1328</y>
+            <width>21</width>
+            <height>24</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_58">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>1380</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                           Kebab &amp; Starters</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_59">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>1510</y>
+            <width>511</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Makhmali Paneer Tikka    Rs. 330</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks2">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>1520</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks3">
+          <property name="geometry">
+           <rect>
+            <x>1780</x>
+            <y>1521</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_61">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>1510</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Hara Bhara Kebab    Rs. 285</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks1">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>1520</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_64">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>1510</y>
+            <width>381</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Achari Broccoli    Rs. 350</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks6">
+          <property name="geometry">
+           <rect>
+            <x>1780</x>
+            <y>1621</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_100">
+          <property name="geometry">
+           <rect>
+            <x>50</x>
+            <y>1610</y>
+            <width>471</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Litchi Bharwan Kebab    Rs. 350</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_101">
+          <property name="geometry">
+           <rect>
+            <x>700</x>
+            <y>1610</y>
+            <width>471</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Multani Paneer Tikka    Rs. 330</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_102">
+          <property name="geometry">
+           <rect>
+            <x>1310</x>
+            <y>1610</y>
+            <width>461</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Bukhara Pudina Aloo    Rs. 300</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks5">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>1620</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ks4">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>1620</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_109">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>1720</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                      Tandoor</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_103">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>1850</y>
+            <width>231</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Naan    Rs. 105   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="tn1">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>1860</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_104">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>1890</y>
+            <width>411</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Plain / Butter</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="tn2">
+          <property name="geometry">
+           <rect>
+            <x>1010</x>
+            <y>1850</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_105">
+          <property name="geometry">
+           <rect>
+            <x>760</x>
+            <y>1880</y>
+            <width>211</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Plain / Butter</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_106">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>1850</y>
+            <width>181</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Roti    Rs. 45</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_107">
+          <property name="geometry">
+           <rect>
+            <x>760</x>
+            <y>1840</y>
+            <width>231</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Naan       Rs. 60   </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="tn3">
+          <property name="geometry">
+           <rect>
+            <x>1630</x>
+            <y>1860</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_108">
+          <property name="geometry">
+           <rect>
+            <x>1390</x>
+            <y>1890</y>
+            <width>411</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Garlic/Cheese</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_155">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>1970</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                         Oriental Main Course</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="om3">
+          <property name="geometry">
+           <rect>
+            <x>1780</x>
+            <y>2111</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_156">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2100</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Vegetable Exotica    Rs. 320</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_157">
+          <property name="geometry">
+           <rect>
+            <x>700</x>
+            <y>2100</y>
+            <width>421</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Schezwan Paneer    Rs. 220</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_158">
+          <property name="geometry">
+           <rect>
+            <x>1380</x>
+            <y>2100</y>
+            <width>381</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Chinese Hot Pot    Rs. 325</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="om2">
+          <property name="geometry">
+           <rect>
+            <x>1130</x>
+            <y>2110</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="om1">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>2110</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_159">
+          <property name="geometry">
+           <rect>
+            <x>30</x>
+            <y>2160</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                             Indian Main Course</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="im3">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>2291</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_160">
+          <property name="geometry">
+           <rect>
+            <x>690</x>
+            <y>2280</y>
+            <width>481</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Cheese Chilly Masala    Rs. 330</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="im1">
+          <property name="geometry">
+           <rect>
+            <x>480</x>
+            <y>2290</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_161">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2280</y>
+            <width>431</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Manpasand Paneer   Rs. 325</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_162">
+          <property name="geometry">
+           <rect>
+            <x>1410</x>
+            <y>2280</y>
+            <width>351</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Karachi Kofta    Rs. 345</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="im2">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>2290</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_163">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2320</y>
+            <width>491</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Makhani / Butter / Mutter / Kolahapuri / Palak</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_164">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2380</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                             Dal</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="da2">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>2490</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_165">
+          <property name="geometry">
+           <rect>
+            <x>820</x>
+            <y>2480</y>
+            <width>351</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dal Makhani    Rs. 270</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_166">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2520</y>
+            <width>491</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dal Fry / Dal Tadka / Dal Palak / Dal Lasooni </string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="da1">
+          <property name="geometry">
+           <rect>
+            <x>530</x>
+            <y>2490</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_167">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2480</y>
+            <width>481</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Manpasand Tuver Dal    Rs. 250</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_168">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2590</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                            Rice</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="rc2">
+          <property name="geometry">
+           <rect>
+            <x>1150</x>
+            <y>2700</y>
+            <width>31</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_169">
+          <property name="geometry">
+           <rect>
+            <x>1410</x>
+            <y>2690</y>
+            <width>351</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Dum Biryani    Rs. 300</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_170">
+          <property name="geometry">
+           <rect>
+            <x>790</x>
+            <y>2690</y>
+            <width>351</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Basmati Rice    Rs. 205</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="rc1">
+          <property name="geometry">
+           <rect>
+            <x>290</x>
+            <y>2700</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_171">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2690</y>
+            <width>231</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Pulao    Rs. 250</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="rc3">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>2701</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_172">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2730</y>
+            <width>341</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Jeera / Mutter / Veg. Pulao</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_173">
+          <property name="geometry">
+           <rect>
+            <x>730</x>
+            <y>2880</y>
+            <width>401</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell  &quot;;</string>
+          </property>
+          <property name="text">
+           <string>Black Forest Blast    Rs. 190</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ds3">
+          <property name="geometry">
+           <rect>
+            <x>1770</x>
+            <y>2891</y>
+            <width>21</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_174">
+          <property name="geometry">
+           <rect>
+            <x>1470</x>
+            <y>2880</y>
+            <width>291</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Brownie    Rs. 150</string>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ds1">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>2890</y>
+            <width>21</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="ds2">
+          <property name="geometry">
+           <rect>
+            <x>1150</x>
+            <y>2890</y>
+            <width>81</width>
+            <height>20</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_175">
+          <property name="geometry">
+           <rect>
+            <x>20</x>
+            <y>2780</y>
+            <width>1933</width>
+            <height>89</height>
+           </rect>
+          </property>
+          <property name="font">
+           <font>
+            <family>Algerian</family>
+            <pointsize>48</pointsize>
+            <weight>50</weight>
+            <italic>false</italic>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(255, 0, 4);
+font: 48pt &quot;Algerian&quot;;</string>
+          </property>
+          <property name="text">
+           <string>                                        Dessert</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_176">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2920</y>
+            <width>361</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 14pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Vanilla / Strawberry / Chocolate</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_177">
+          <property name="geometry">
+           <rect>
+            <x>40</x>
+            <y>2880</y>
+            <width>291</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;</string>
+          </property>
+          <property name="text">
+           <string>Ice-Cream    Rs. 90</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="btn">
+          <property name="geometry">
+           <rect>
+            <x>800</x>
+            <y>2990</y>
+            <width>261</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 20pt &quot;Rockwell&quot;;
+color: rgb(255, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Place Order</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv11">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>60</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv22">
+          <property name="geometry">
+           <rect>
+            <x>1220</x>
+            <y>60</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv33">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>60</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv55">
+          <property name="geometry">
+           <rect>
+            <x>1220</x>
+            <y>230</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv66">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>230</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bv44">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>230</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="so11">
+          <property name="geometry">
+           <rect>
+            <x>490</x>
+            <y>460</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="so22">
+          <property name="geometry">
+           <rect>
+            <x>1220</x>
+            <y>460</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="so33">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>460</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bd11">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>710</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="bd22">
+          <property name="geometry">
+           <rect>
+            <x>1410</x>
+            <y>700</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="sa33">
+          <property name="geometry">
+           <rect>
+            <x>1740</x>
+            <y>940</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="sa22">
+          <property name="geometry">
+           <rect>
+            <x>1110</x>
+            <y>940</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="s">
+          <property name="geometry">
+           <rect>
+            <x>430</x>
+            <y>940</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="pa11">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>1140</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="pa22">
+          <property name="geometry">
+           <rect>
+            <x>1080</x>
+            <y>1140</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="pa33">
+          <property name="geometry">
+           <rect>
+            <x>1730</x>
+            <y>1140</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="cu33">
+          <property name="geometry">
+           <rect>
+            <x>1730</x>
+            <y>1330</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="cu22">
+          <property name="geometry">
+           <rect>
+            <x>1080</x>
+            <y>1330</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="cu11">
+          <property name="geometry">
+           <rect>
+            <x>380</x>
+            <y>1330</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks11">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>1520</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks44">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>1620</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks22">
+          <property name="geometry">
+           <rect>
+            <x>1210</x>
+            <y>1520</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks55">
+          <property name="geometry">
+           <rect>
+            <x>1210</x>
+            <y>1620</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks33">
+          <property name="geometry">
+           <rect>
+            <x>1810</x>
+            <y>1520</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ks66">
+          <property name="geometry">
+           <rect>
+            <x>1810</x>
+            <y>1620</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="tn22">
+          <property name="geometry">
+           <rect>
+            <x>1040</x>
+            <y>1850</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="tn33">
+          <property name="geometry">
+           <rect>
+            <x>1660</x>
+            <y>1860</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="tn11">
+          <property name="geometry">
+           <rect>
+            <x>270</x>
+            <y>1860</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="om11">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>2110</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="om22">
+          <property name="geometry">
+           <rect>
+            <x>1160</x>
+            <y>2110</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="om33">
+          <property name="geometry">
+           <rect>
+            <x>1810</x>
+            <y>2110</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="im33">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>2290</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="im22">
+          <property name="geometry">
+           <rect>
+            <x>1210</x>
+            <y>2290</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="im11">
+          <property name="geometry">
+           <rect>
+            <x>510</x>
+            <y>2290</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="da11">
+          <property name="geometry">
+           <rect>
+            <x>560</x>
+            <y>2490</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="rc11">
+          <property name="geometry">
+           <rect>
+            <x>320</x>
+            <y>2700</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="da22">
+          <property name="geometry">
+           <rect>
+            <x>1210</x>
+            <y>2490</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="rc22">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>2700</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="rc33">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>2700</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ds33">
+          <property name="geometry">
+           <rect>
+            <x>1800</x>
+            <y>2890</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ds22">
+          <property name="geometry">
+           <rect>
+            <x>1180</x>
+            <y>2890</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="ds11">
+          <property name="geometry">
+           <rect>
+            <x>370</x>
+            <y>2890</y>
+            <width>31</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="error">
+          <property name="geometry">
+           <rect>
+            <x>660</x>
+            <y>2930</y>
+            <width>1261</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_28">
+          <property name="geometry">
+           <rect>
+            <x>650</x>
+            <y>3080</y>
+            <width>581</width>
+            <height>51</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLineEdit" name="rn">
+          <property name="geometry">
+           <rect>
+            <x>340</x>
+            <y>3010</y>
+            <width>111</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 206, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="successord">
+          <property name="geometry">
+           <rect>
+            <x>380</x>
+            <y>3080</y>
+            <width>1261</width>
+            <height>61</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_27">
+          <property name="geometry">
+           <rect>
+            <x>240</x>
+            <y>3005</y>
+            <width>101</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+          </property>
+          <property name="text">
+           <string>Room No.</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="rnerror">
+          <property name="geometry">
+           <rect>
+            <x>230</x>
+            <y>3050</y>
+            <width>521</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

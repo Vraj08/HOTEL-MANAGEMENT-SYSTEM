@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1940</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1940</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(254, 255, 162, 240), stop:1 rgba(255, 255, 162, 206));}</string>
+   </property>
+   <widget class="QLineEdit" name="rnno">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>380</y>
+      <width>511</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 127);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid #FBAD25;
+background-color:rgb(255, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>160</y>
+      <width>1979</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Algerian</family>
+      <pointsize>64</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 4);
+font: 64pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Generate Bill</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>330</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Room No.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbtn">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>550</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.019, y2:0, stop:0 rgba(255, 211, 113, 246), stop:0.547264 rgba(254, 240, 186, 255), stop:1 rgba(255, 230, 102, 242));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}
+QPushButton:hover
+{
+border-radius:30px;
+background-color:qlineargradient(spread:reflect, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(254, 255, 162, 240), stop:1 rgba(255, 255, 162, 206));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Generate</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorlineedt">
+    <property name="geometry">
+     <rect>
+      <x>770</x>
+      <y>480</y>
+      <width>481</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 12pt &quot;Lucida Bright&quot;;color:rgb(244, 55, 58);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../anaconda3/Library/bin/abc.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

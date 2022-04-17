@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1940</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1940</width>
+     <height>1040</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:reflect, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(254, 255, 162, 240), stop:1 rgba(255, 255, 162, 206));}</string>
+   </property>
+   <widget class="QLabel" name="loginlbl">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>70</y>
+      <width>601</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Calligraphy</family>
+      <pointsize>48</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Today's Tasks</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tbl">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>220</y>
+      <width>591</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:reflect, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(254, 255, 162, 240), stop:1 rgba(255, 255, 162, 206));</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>Room NO</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Task</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../anaconda3/Library/bin/abc.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>

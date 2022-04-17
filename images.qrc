@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="img">
+    <file>Royal_Classic_Hotel_Logo11.png</file>
+    <file>Royal_Classic_Hotel_Logo11.png</file>
+    <file>htl.png</file>
+    <file>htl2.png</file>
+    <file>Royal_Classic_Hotel_Logo11.png</file>
+    <file>abc.png</file>
+    <file>../../../Downloads/output-onlinepngtools (4).png</file>
+    <file>../../../Downloads/pngwing.com (2).png</file>
+    <file>../../../Downloads/pngwing.com (1).png</file>
+    <file>../../../Downloads/pngwing.com.png</file>
+    <file>jing.fm-psychologist-clip-art-3981675.png</file>
+    <file>Sign_up_today.png</file>
+    <file>Sign_up_today.png</file>
+    <file>jing.fm-psychologist-clip-art-3981675.png</file>
+    <file>Sign_up_today.png</file>
+    <file>output-onlinepngtools.png</file>
+    <file>login-icon-3060.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>hotel-management-system-500x500.png</file>
+  </qresource>
+</RCC>

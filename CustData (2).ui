@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1940</width>
+    <height>1040</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1940</width>
+     <height>1050</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:rgb(167, 255, 182);} </string>
+   </property>
+   <widget class="QLabel" name="usernamelbl">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Room No.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>640</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Room Type.</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>130</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_3">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>130</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Check In Date</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>140</y>
+      <width>591</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>142</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Full Name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_6">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>224</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Phone No.</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_5">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>220</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ID Proof</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_8">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>440</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ID Proof No.</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_9">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>780</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Total People</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_8">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>770</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_10">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>850</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Extra Bed</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_9">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>700</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_11">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>910</y>
+      <width>301</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Advanced Payment</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_10">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>904</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_12">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>491</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:24pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Personal Information</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_4">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>220</y>
+      <width>591</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_13">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>560</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:24pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Booking Information</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>379</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Aadhar card</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>640</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Single</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Double</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Duplex</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suite</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Premium</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>379</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pan card</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>380</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 16pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Passport</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>850</y>
+      <width>73</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-110</x>
+      <y>510</y>
+      <width>2271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 28pt &quot;Lucida Calligraphy&quot;;</string>
+    </property>
+    <property name="text">
+     <string>------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>650</y>
+      <width>631</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Single</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Double</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Duplex</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Suite</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Premium</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="usernamelbl_14">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>590</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font:24pt &quot;Algerian&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Available Rooms</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="rnno_7">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>440</y>
+      <width>591</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(85, 255, 0);
+font: 8pt &quot;Lucida Bright&quot;;
+}
+QLineEdit:focus{
+border:2px solid;
+border-color: rgb(0, 170, 82);
+background-color:rgb(165, 255, 195);
+font: 8pt &quot;Lucida Bright&quot;;;}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="frame">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginbtn">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>940</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+border-radius:30px;
+background-color:qlineargradient(spread:pad, x1:0, y1:1, x2:0.019, y2:0, stop:0 rgba(22, 255, 13, 246), stop:0.547264 rgba(194, 254, 183, 255), stop:1 rgba(74, 255, 0, 242));
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}
+QPushButton:hover
+{
+border-radius:30px;
+background-color:rgb(85, 255, 0);
+font: 20pt &quot;Lucida Calligraphy&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Book Room</string>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="errorlineedt">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>300</y>
+      <width>751</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 16pt &quot;Lucida Bright&quot;;color:rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../../anaconda3/Library/bin/abc.qrc"/>
+  <include location="images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
